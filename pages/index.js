@@ -1,7 +1,12 @@
+import React from "react";
+import Header from '../components/nav';
+
 export default () => (
-    <div>
-      <div className="hero">
-        <h1 className="title">Next.js + Tailwind CSS</h1>
-      </div>
-    </div>
+    <>
+        <Header />
+        <div>
+          <div className="hero">
+          </div>
+        </div>
+    </>
 )

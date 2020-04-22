@@ -1,4 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&display=swap');
+
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
+.nav-item{
+    @apply p-3 font-bold text-gray-700 text-base inline-block;
+}
 @tailwind utilities;
+
+.f-m{
+    font-family: 'Merriweather Sans', sans-serif;
+}
