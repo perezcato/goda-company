@@ -4,7 +4,7 @@
 @tailwind components;
 /* purgecss end ignore */
 .nav-item{
-    @apply p-3 font-bold text-gray-700 text-base inline-block;
+    @apply p-3 font-light text-gray-700 text-base inline-block;
 }
 @tailwind utilities;
 
